@@ -1,2 +1,4 @@
----
-testvar : "testvalue"
+file {'C:\users\azureadmin\desktop\hello.txt':
+  ensure  => present,
+  content => "Hello World!",
+}

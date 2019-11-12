@@ -1,4 +1,4 @@
-file {'C:\users\azureadmin\desktop\hello.txt':
+file {'C:\users\azureadmin\desktop\hello2.txt':
   ensure  => present,
   content => "Hello World!",
 }

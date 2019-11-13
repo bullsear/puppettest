@@ -1,4 +1,4 @@
-file {'C:\users\azureadmin\desktop\hello.txt':
+file {'C:\va-puppet\hello.txt':
   ensure  => present,
   content => "Hello World 1",
 }

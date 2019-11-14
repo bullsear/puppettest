@@ -1,4 +1,0 @@
-file {'C:\va-puppet\hello.txt':
-  ensure  => present,
-  content => "Hello World 6",
-}
